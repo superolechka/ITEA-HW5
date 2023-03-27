@@ -60,5 +60,6 @@ team.showTeam = function() {
         console.log(`${team[`person${n}`]['name']} - ${team[`person${n}`]['position']}. Заробітна плата - $${team[`person${n}`]['salary']}.`);
     }
 }
+
 team.showTeam();
 
